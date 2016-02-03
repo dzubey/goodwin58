@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
-/* @var $content string */
+
 
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
@@ -15,7 +15,6 @@ $this->registerJs(<<<JS
 
 	console.log(123);
 	jssor_1_slider_init();
-	
 JS
     , yii\web\View::POS_READY);
 
