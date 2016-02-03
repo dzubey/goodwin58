@@ -1,0 +1,21 @@
+@media only screen and (min-width: 298px)and (max-width:400px) {
+   
+}
+@media only screen and (min-width: 401px) and (max-width:637px) {
+   
+}
+@media only screen and (min-width: 638px) and (max-width:840px) {
+     
+}
+@media only screen and (min-width: 670px) and (max-width:995px) {
+
+
+}
+@media only screen and (max-width: 624px) {
+    .top_nav{
+    display: none;
+}  
+  
+}
+
+/* конец css */
