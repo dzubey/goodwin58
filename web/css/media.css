@@ -1,21 +1,123 @@
-@media only screen and (min-width: 298px)and (max-width:400px) {
-   
-}
-@media only screen and (min-width: 401px) and (max-width:637px) {
-   
-}
-@media only screen and (min-width: 638px) and (max-width:840px) {
-     
-}
-@media only screen and (min-width: 670px) and (max-width:995px) {
+@media only screen and (max-width: 638px) {
+    .news li{
+    width: 97%;
+    }
+    .news_block img{
+    max-height: 380px;
+    }
+    .news_name{
+    text-align: left;
+    }
+    .top_nav {
+        display: none;
+    }
+    .block{
+        width: 50%;
+    }
+    .article{
+        padding: 1em;
+    }
+    .left_article{
+        width: 99%;
+    }
+    .right_article{
+        width: 99%;
+    }
 
-
 }
-@media only screen and (max-width: 624px) {
-    .top_nav{
-    display: none;
-}  
-  
+@media only screen and (max-width: 510px) {
+    .no {
+        display: none;
+    }
+}
+@media only screen and (min-width: 766px) and (max-width:959px) {
+    .slogan {
+        font-size: 380%;
+    }
+    .logo {
+        min-height: 110px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width:765px) {
+    .slogan {
+        display: none;
+    }
+    .logo {
+        width: 27%;
+        min-height: 88px;
+    }
+    .description{
+        height: 5em;
+    }
+    .w100{
+        width: 100%;
+    }
+    .date_review{
+        margin-bottom: 0;
+    }
+    .name_review{
+        line-height: 2.5em;  
+    }
+    span.no {
+        display: none;
+    }
+    .copyright a {
+        width: 21%;
+    }
+    .totop {
+        margin: 0;
+        margin-top: -55px;
+        margin-left: 23%;
+    }
+}
+@media only screen and (max-width: 585px) {
+    
+}
+@media only screen and (min-width: 280px) and (max-width:462px) {
+    .logo {
+        width: 30%;
+        min-height: 70px;
+    }
+    .phone {
+        float: left;
+        margin-left: 1em;
+    }
+    .mail {
+        float: left;
+        margin-left: 1em;
+    }
+    .phone p,
+    .mail p {
+        line-height: 32px;
+        margin-left: 30px;
+        font-size: 1.24em;
+        font-weight: 100;
+        color: #231f20;
+    }
+    .block{
+        width: 98%;
+    }
+    .description{
+        height: 4em;
+    }
+    .copyright {
+        height: 3em;
+    }
+    .copyright a {
+        width: 100%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .contact {
+        width: 100%;
+        height: auto;
+    }
+    .contact p {
+        float: none;
+        line-height: 3.5em;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* конец css */

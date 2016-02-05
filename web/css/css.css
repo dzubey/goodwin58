@@ -163,7 +163,7 @@ clear: both;
     width: 37px;
     height: 40px;
     margin-left: 0.4em;
-    background: url(images/smile.png);
+    background: url(../images/smile.png);
     background-repeat: no-repeat;
 }
 .top_nav {
@@ -194,47 +194,64 @@ clear: both;
     width: 42px;
     height: 40px;
 }
+/*.top_social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+.top_social a:hover{
+    box-shadow: inset 0 0 10px rgba(0,0,0,.2),
+  0 2px 0 rgba(255,255,255,.4),
+  inset 0 2px 0 rgba(0,0,0,.1);
+}*/
 .vk {
-    background: url(images/spritec1.png) no-repeat;
+    background: url(../images/spritec1.png) no-repeat;
 }
 .in {
-    background: url(images/spritec1.png) no-repeat;
+    background: url(../images/spritec1.png) no-repeat;
     background-position: -51px 0px;
 }
 .ok {
-    background: url(images/spritec1.png) no-repeat;
+    background: url(../images/spritec1.png) no-repeat;
     background-position: -102px 0px;
 }
 header {
-    margin-top: 69px;
-    background-color: ;
+    margin-top:52px ;
     width: 100%;
-    height: 205px;
+    height: 100%;
+    
+    
 }
 .logo {
     float: left;
-    min-width: 220px;
-    height: 142px;
-    ;
-    background: url(images/logo1.png);
+    width: 25%;
+    min-width: ;
+    min-height:140px;
+    background: url(../images/logo1.png);
     background-repeat: no-repeat;
-    margin-top: 3%;
+    background-size: contain;
+    margin-top: 2em;
+    margin-bottom: 2em;
     margin-left: 0.4em;
 }
 .slogan {
     float: left;
-    clear: ;
-    font-size: 77px;
+    min-width: 330px;
+    font-size:534%;
     font-weight: 100;
-    line-height: ;
-    margin-left: 0.4em;
+    padding-top: 50px;
 }
 .slogan p {
     display: inline-block;
     font-size: ;
     font-family: 'pu';
     font-weight: 100;
-    font-style: ;
     color: #e3b9c3;
     color: #777;
     color: #231f20;
@@ -243,19 +260,21 @@ header {
 }
 .mail {
     float: right;
-    background: url(images/mail3.png)no-repeat;
-    margin-top: 3%;
+    background: url(../images/mail3.png)no-repeat;
+    background-size: contain;
+    margin-top:2em;
     margin-right: 0.4em;
     padding-left: 0.5em;
-    fo
+    
 }
 .phone {
     float: right;
-    background: url(images/tel81.png)no-repeat;
+    background: url(../images/tel81.png)no-repeat;
+    background-size: contain;
     clear: right;
-    margin-top: 1%;
+    margin-top: ;
     margin-right: 0.4em;
-    padding-left: ;
+    padding-left:0.4em ;
 }
 .phone p,
 .mail p {
@@ -265,6 +284,7 @@ header {
     font-weight: 100;
     color: #231f20;
 }
+
 .slider {
     width: 1600px;
     max-width: 100%;
@@ -288,7 +308,7 @@ header {
     width: 55px;
     height: 55px;
     cursor: pointer;
-    background: url('img/a02.png') no-repeat;
+    background: url('../uploads/img/a02.png') no-repeat;
     overflow: hidden;
 }
 .jssora02l {
@@ -324,6 +344,9 @@ header {
     box-sizing: border-box;
     text-align: center;
 }
+.tl{
+    text-align: left;
+}
 .block a{
     display: block;
     height: 70%;
@@ -345,6 +368,17 @@ header {
     line-height: 1.572448;
     color: #777;
     height: 4em;
+}
+.block a img:hover {
+	transform: scale(.9);
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-ms-transform: scale(.9);
+	-o-transform: scale(.9);
+	transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
 }
 
 .article{
@@ -372,7 +406,7 @@ header {
     display: inline-block;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 1em;
     padding-left: 20px;
     padding-right: 15px;
     line-height: 69px;
@@ -391,17 +425,16 @@ header {
 }
 
 .title{
-    width: 50%;
+    width:100%;
     height: 2em;
     font-size: 16px;
     color: #4a4a4a;
     font-weight: 600;
-    margin-left: 25%;
+    text-align: center;
     margin-top: 1em;
     padding: 0.5em;
     text-decoration: none;
     text-transform: uppercase;
-    background: #fff;
 }
 
 
@@ -464,15 +497,103 @@ footer{
     position: relative;
     clear: both;
     width: 100%;
-    height: 65px;
     background: #4A4A4A;
     overflow: hidden;
     line-height: 65px;
-    border-top: 1px solid #fff 1px solid transparent 1px solid black;
-    
+    color: #fff; 
+}
+.copyright{
+    width: 100%;
+    height: 65px;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    text-align: center;
 }
 .copyright a{
-    color: #fff; 
+    float: left;
+    width: 45%;
+    text-align: left;
+    color: #fff;
+}
+.contact{
+    width:auto ;
+    float: right; 
+}
+.contact p{
+    float: right;
+    height: 100%;
+    padding-left: 1em;
+}
+
+p.mail_fo:before{
+    content: "";
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-image: url(../images/mail_fo.png);
+    background-size: contain;
+    vertical-align: middle;
+    text-align: right;
+}
+
+p.phone_fo:before{
+    content: "";
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-image: url(../images/phone_fo.png);
+    background-size: contain;
+    vertical-align: middle;
+    text-align: right;
+}
+.totop{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/up.svg); 
+    margin-top: -55px;
+}
+.totop:hover{
+    cursor: pointer;
+    filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+}
+.msg{
+    display:none;
+}
+a.go_msg:active{
+    
+}
+form{
+    width: 100%;
+    height: ;
+    float: right;
+    clear: left;
+    margin-bottom: 2em;
+}
+form input{
+    font-size: 100.1%;
+    float: left;
+    margin-right: 1em;
+    line-height: 2em;
+}
+.input_text{
+    
+}
+.comment{
+    width: 94%;
+    margin:1em auto;
 }
 /*USLUGI*/
 .service{
@@ -542,6 +663,14 @@ a.position{
 .theme_text p{
     
 }
+.bg_tr{
+    background-color: transparent;
+    background: url(../images/bg.png) repeat;
+    opacity: 10%;
+}
+.bg_e{
+    background-color: #eee;
+}
 .bg{
     background-color: #eee;
     padding-top: 2em;
@@ -559,7 +688,6 @@ a.position{
     min-width: 320px;
     width: 100%;
     height: 100%;
-    background-color: #eee;
     padding-top: 1em;
     padding-bottom: 1em;
     overflow: hidden;
@@ -567,18 +695,21 @@ a.position{
 .news{
     float: left;
     width: 97%;
-    padding-right: 1em;
+    padding-right: 1.6em;
   
 }
 .news li{
     float: left;
     width: 47%;
-    min-width: 283px;
+    min-width: 257px;
     height: auto; 
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 3%;
-  
+    padding-left: 3%; 
+}
+li.celebration{
+    width: 41%;
+    padding-left: 7%;  
 }
 .news_block{
     float: right;
@@ -591,13 +722,14 @@ a.position{
 }
 .news_block img{
     width: 100%;
-    max-height: 315px; 
+    max-height: 265px; 
     border: none;
     margin: 0;
     padding: 0;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);
 }
 .news_name{
-    text-align: left;
+    text-align: center;
     max-width: 100%;
     font-size: 1.2em;
     font-weight: 600;
@@ -607,12 +739,18 @@ a.position{
 .news_title{
     text-align: justify;
     max-width: 100%;
-    padding: 0 1em 1em 1em;
-    height: auto;
+    padding: 1em 1em 1em 1em;
+    height: 100%;
     overflow: hidden;
     box-sizing: border-box;
 }
 
 /*end news*/
+
+
+
+.mozaik {
+    width: 100%;
+}
 
 

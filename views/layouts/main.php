@@ -148,70 +148,116 @@ JS
         </div>
     </div>
     
-    <div class="max content clearfix">
-        <div class="title center">Отзывы</div>
-        <div class="block">
+    <div class="max bg_e content clearfix">
+        <div class="title">О нас говорят другие</div>
+        <div class="block w100">
             <div class="name_review">Оксана</div>
             <div class="text shadow bg_f">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
             </div>
             <div class="date_review">21.12.12</div>
         </div>
-        <div class="block">
+        <div class="block w100">
             <div class="name_review">Вадим</div>
             <div class="text shadow bg_f">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
             </div>
             <div class="date_review">9.11.15</div>
         </div>
-        <div class="block">
+        <div class="block w100">
             <div class="name_review">Donatella</div>
             <div class="text shadow bg_f">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
             </div>
             <div class="date_review">30.04.09</div>
         </div>
-        
+        <div class="center">
+            <form class="comment">
+                <input type="text" name="name" size="24" required placeholder="Ваше имя">
+                <input class="input_text" type="text" name="message" size="63" required placeholder="Ваш отзыв">
+                <input type="submit" value="Отправить отзыв">
+            </form>
+        </div>
     </div>
     
-    <div class="puzzle ">
-        <ul>
-            <li class="">
-                <a class="fancybox" href="puzzle/3_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/3_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/2_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/2_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/5_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/5_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/3_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/3_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/4_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/4_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/5_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/5_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/4_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/4_s.jpg" alt="" /></a>
-            </li>
-            <li><a class="fancybox" href="puzzle/2_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/3_s.jpg" alt="" /></a></li>
-            <li>
-                <a class="fancybox" href="puzzle/3_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/1_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/2_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/2_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/1_s.jpg" alt="" /></a>
-            </li>
-            <li>
-                <a class="fancybox" href="puzzle/4_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="puzzle/4_s.jpg" alt="" /></a>
-            </li>
-        </ul>
-	</div>
+    <div class="home_gallery">
+        <div id='gallery-1' class='gallery'>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz1.jpg'>
+                                <img  src="uploads/mozaik/moz1.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz2.jpg'>
+                                <img  src="uploads/mozaik/moz2.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz9.jpg'>
+                                <img  src="uploads/mozaik/moz9.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz8.jpg'>
+                                <img  src="uploads/mozaik/moz8.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz6.jpg'>
+                                <img  src="uploads/mozaik/moz6.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz7.jpg'>
+                                <img  src="uploads/mozaik/moz7.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz5.jpg'>
+                                <img  src="uploads/mozaik/moz5.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz3.jpg'>
+                                <img  src="uploads/mozaik/moz3.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz4.jpg'>
+                                <img  src="uploads/mozaik/moz4.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+            <dl class='gallery-item'>
+                <dt class='gallery-icon landscape'>
+                            <a href='uploads/mozaik/moz0.jpg'>
+                                <img  src="uploads/mozaik/moz0.jpg" />
+                            </a>
+                        </dt>
+            </dl>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(document).on('ready post-load', easy_fancybox_handler);
+
+    </script>
     
     <div class="center">
         <div class="article clearfix">
@@ -245,11 +291,24 @@ JS
         </div>
     </div>
     
-    <footer>
-        <div class="copyright center"><a href="">2011 Агенство организации прадников GoodWin &#169</a>
-        <a href="#totop">Top</a>
-        </div>
-        
+	<footer>
+        <div class="center clearfix">
+            <div class="copyright">
+                <a>&copy;&ensp;<span class="no">2011&ensp; Организация праздников&ensp;</span>GOODWIN</a>
+                
+                <div class="contact">
+                    <p class="mail_fo">info@goodwin58.ru</p>
+                    <p class="phone_fo">8-(8412)-211-733</p>
+                </div>
+            </div>
+            <div class="totop no"></div>
+            <form class="msg">
+                <input type="text" name="name" size="24" required placeholder="Ваше имя">
+                <input type="text" name="phone" size="13"  placeholder="Ваш телефон">
+                <input class="input_text" type="text" name="message" size="53" required  placeholder="Ваше сообщение">
+                <input type="submit" value="Отправить">
+            </form>
+        </div>  
     </footer>
 	
 <?/*
